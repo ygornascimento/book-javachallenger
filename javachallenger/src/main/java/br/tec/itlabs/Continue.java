@@ -5,7 +5,7 @@ public class Continue {
         for (int i = 1; i <= 5; i++) {
             if (i >= 3) {
                 System.out.println("Goku beats one Majin Buu with " + i + " hits.");
-                break;
+                continue;
             }
             System.out.println("Goku hits Majin Buu");
         }
